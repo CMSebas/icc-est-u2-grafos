@@ -28,7 +28,13 @@ public class Graph{
     }
 
     public void printGraph() {
-        
+         for (Node node : nodes) {
+            System.out.print("Vertex " + node.getValue() + ":");
+            for (Node neighbor : node.getNeighbors()) {
+                System.out.print("->"+neighbor.getValue() );
+            }
+            System.out.println();
+        }
     }
 
     public void getDFS(Node startNode) {
@@ -44,7 +50,7 @@ public class Graph{
     }
 
     public int[][] getAdjacencyMatrix() {
-        
+        return null;
     }
 
     public void printAdjacencyMatrix() {

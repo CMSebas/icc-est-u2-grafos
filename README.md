@@ -6,7 +6,7 @@
 - **Asignatura**: Estructura de Datos
 - **Carrera**: Computación
 - **Estudiante**: Sebastian Rafael Ceron Miranda
-- **Fecha**: 07/07/2025
+- **Fecha**: 10/07/2025
 - **Profesor**: Ing. Pablo Torres
 
 ---
@@ -52,32 +52,8 @@ El proyecto aplica conceptos de grafos, estructuras dinámicas y algoritmos de b
 
 ## 🔄 Algoritmos Implementados
 
-### 🔹 BFS (Breadth-First Search)
-Recorre el grafo en **amplitud** desde el nodo de inicio usando una cola.
 
-### 🔹 DFS (Depth-First Search)
-Recorre el grafo en **profundidad** de forma recursiva.
 
-### 🔹 Matriz de Adyacencia
-Permite visualizar si hay conexión entre nodos mediante una matriz binaria `0` y `1`.
+
 
 ---
-
-## ✅ Ejemplo de Uso
-
-```java
-Graph graph = new Graph();
-
-Node a = graph.addNode(0);
-Node b = graph.addNode(1);
-Node c = graph.addNode(2);
-Node d = graph.addNode(3);
-
-graph.addEdge(a, b);
-graph.addEdge(a, c);
-graph.addEdge(b, d);
-
-graph.printGraph();
-graph.getDFS(a);
-graph.getBFS(a);
-graph.printAdjacencyMatrix();
